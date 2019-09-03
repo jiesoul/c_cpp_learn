@@ -24,5 +24,10 @@ int main()
   cout << "p3 value is " << p3 << endl;
   cout << "p4 value is " << p4 << endl;
   cout << "p5 value is " << p5 << endl;
+
+  auto p6 = make_shared<vector<string>>();
+
+  auto p = make_shared<int>(42);
+  auto q(p);
   return 0;
 }
