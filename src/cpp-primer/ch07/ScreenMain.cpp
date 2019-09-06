@@ -8,7 +8,7 @@ using std::endl;
 int main()
 {
   Screen myScreen(4, 5, 'X');
-  myScreen.move(3, 0).set('#').display(cout);
+  myScreen.move(4, 0).set('#').display(cout);
   cout << "\n";
   myScreen.display(cout);
   cout << "\n";

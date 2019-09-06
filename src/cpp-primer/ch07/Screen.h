@@ -1,11 +1,13 @@
 //
 // Created by JIESOUL on 2019/9/4.
 //
-
 #ifndef C_CPP_LEARN_SRC_CPP_PRIMER_CH07_SCREEN_H
 #define C_CPP_LEARN_SRC_CPP_PRIMER_CH07_SCREEN_H
+#include "Window_mgr.h"
 #include <string>
 class Screen {
+friend class Window_mgr;
+friend void Window_mgr::clear(ScreenIndex);
 public:
   typedef std::string::size_type pos;
   Screen() = default;

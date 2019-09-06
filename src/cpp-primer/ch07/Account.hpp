@@ -14,8 +14,3 @@ private:
   static constexpr int period = 30;
   double daily_tbl[period];
 };
-void Account::rate(double newRate)
-{
-  interestRate = newRate;
-}
-double Account::interestRate = initRate();
