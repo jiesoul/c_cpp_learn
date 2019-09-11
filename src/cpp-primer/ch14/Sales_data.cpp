@@ -35,21 +35,13 @@ std::istream &read(std::istream &is, Sales_data &item) {
   return is;
 }
 
-int main()
-{
-  Sales_data item;
-  String null_book = "9-999-99999-9";
-  item.combine(Sales_data(null_book));
-
-  return 0;
-}
-ostream &operator<<(ostream &os, const Sales_data &item)
+ostream& Sales_data::operator<<(ostream &os, const Sales_data &item)
 {
   os << item.isbn() << " " << item.units_sold << " "
      << item.revenue << " " << item.avg_price();
   return os;
 }
-istream &operator>>(istream &is, Sales_data &item)
+istream& Sales_data::operator>>(istream &is, Sales_data &item)
 {
   double price;
   is >> item.bookNo >> item.units_sold >> price;
@@ -59,10 +51,19 @@ istream &operator>>(istream &is, Sales_data &item)
     item = Sales_data();
   return is;
 }
-Sales_data operator+(constexpr Sales_data &lhs, const Sales_data &rhs)
+bool Sales_data::operator==(const Sales_data &lhs, const Sales_data &rhs)
 {
-  Sales_data sum = lhs;
-  sum += rhs;
-  return sum;
+  return lhs.isbn() == rhs.isbn()
+         && lhs.units_sold == rhs.units_sold
+         && lhs.revenue = rhs.revenue;
 }
-bool Sales_data::
+bool bool Sales_data::operator!=(const Sales_data &lhs, const Sales_data &rhs)
+{
+  return !(lhs == rhs);
+}
+Sales_data& SalesData::operator+=(const Sales_data &rhs)
+{
+  units_sold += rhs.units_sold;
+  revenue += rhs.revenue;
+  return *this;
+}

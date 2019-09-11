@@ -13,7 +13,7 @@ class Sales_data {
   explicit Sales_data(std::string s = ""): bookNo(s) { }
   explicit Sales_data(std::istream &);
 
-  std::string isbh() const { return this->bookNo; }
+  std::string isbn() const { return this->bookNo; }
   Sales_data& combine(const Sales_data&);
  private:
   double avg_price() const;
