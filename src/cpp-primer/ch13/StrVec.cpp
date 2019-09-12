@@ -47,7 +47,7 @@ void StrVec::reallocate()
   }
   free();
   elements = newdata;
-  first_free = dest;
+    first_free = dest;
   cap = elements + newcapacity;
 }
 StrVec& StrVec &StrVec::operator=(std::initializer_list<string> i1) {

@@ -10,8 +10,11 @@ class Base {
 public:
   static void statmem();
   void pub_mem();
+  std::size_t size() const { return n; }
+  virtual int fcn();
 protected:
   int prot_mem;
+  std::size_t n;
 private:
   char priv_mem;
 };

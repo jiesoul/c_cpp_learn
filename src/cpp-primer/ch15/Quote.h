@@ -12,6 +12,7 @@ public:
   Quote(const std::string &book, double sales_price): bookNo(book), price(sales_price) { }
   std::string isbn() const;
   virtual double net_price(std::size_t n) const;
+  virtual void debug();
   virtual ~Quote() = default;
 private:
   std::string bookNo;
