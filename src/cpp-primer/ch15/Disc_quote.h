@@ -9,7 +9,9 @@ class Disc_quote {
 public:
   Disc_quote() = default;
   Disc_quote(const std::string& book, double price, std::size_t qty, double qty):
-    Quote(book, price), quantity(qty), discount(disc) { }
+  Quote(book, price), quantity(qty), discount(disc) { }
+  Disc_quote* clone() const & { return new Disc_quote(*this); }
+  Disc_quote* clone() && { return new Disc_quote(std::move(*this)); }
   double net_price(std::size_t) const = 0;
   std::pair<size_t, double> discount_policy() const { return {quantity, discount}; }
 protected:
