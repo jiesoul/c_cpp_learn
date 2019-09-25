@@ -14,4 +14,5 @@ private:
   T objectValue;
 };
 
+
 #endif //C_CPP_LEARN_SRC_EFFECTIVE_CPP_NAMEDOBJECT_H
