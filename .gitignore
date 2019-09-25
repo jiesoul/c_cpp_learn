@@ -2,6 +2,8 @@
 .idea/
 .vs/
 x64/
+Debug/
 a.out
 *.gch
 out/
+c-cpp-learn.*
