@@ -9,13 +9,20 @@ struct ListNode {
 
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2)
 {
-  int temp = 0;
-  ListNode result(0);
-  ListNode &cur = result;
-  while (l1 != NULL || l2 != NULL) {
-    int x = (l1 != NULL)
-    int val = l1->val + l2->val + temp;
-    tem = val / 10;
-    cur = ListNode(val % 10);
+  if(l1 == nullptr && l2 == nullptr) {
+    return nullptr;
+  } else if (l1 != nullptr && l2 == nullptr) {
+    return l1;
+  } else if (l2 != nullptr && l1 == nullptr) {
+    return l2;
+  } else {
+    int v = l1->val + l2->val;
+    ListNode result(v % 10);
+    if (v / 10 != 0) {
+      ListNode temp(v / 10);
+      l1->next = addTwoNumbers(l1->next, &temp);
+    }
+    result.next = addTwoNumbers(l1->next, l2->next);
+    return &result;
   }
 }

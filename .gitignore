@@ -1,9 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/
-.vs/
-x64/
-Debug/
+/.idea/
+/.vs/
+/x64/
+/Debug/
 a.out
 *.gch
-out/
-c-cpp-learn.*
+/out/
