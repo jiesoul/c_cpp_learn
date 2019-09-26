@@ -5,9 +5,9 @@
 #include "PrettyMenu.h"
 void PrettyMenu::changeBackground(std::istream &imgSrc)
 {
-  lock(&mutex);
-  delete bgImage;
-  ++imageChanges;
-  bgImage = new Igage(imgSrc);
-  unlock(&mutex);
+  using std::swap;
+  Lock ml(&mutex);
+  std::tr1::shared_ptr<PMImpl> pNew(new PMImpl(*pImpl));
+  ++pNew->imageChanges;
+  swap(pImpl, pNew);
 }
