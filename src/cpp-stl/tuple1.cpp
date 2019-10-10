@@ -1,5 +1,5 @@
 //
-// Created by JIESOUL on 2019/10/8.
+// Created by JIESOUL on 2019/10/10.
 //
 #include <tuple>
 #include <iostream>
@@ -14,10 +14,10 @@ int main()
   cout << get<0>(t1) << " ";
   cout << get<1>(t1) << " ";
   cout << get<2>(t1) << " ";
+  cout << endl;
 
   auto t2 = make_tuple(22, 44, "nico");
   get<1>(t1) = get<1>(t2);
-
   if (t1 < t2) {
     t1 = t2;
   }
