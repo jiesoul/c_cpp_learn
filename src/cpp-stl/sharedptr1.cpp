@@ -1,5 +1,5 @@
 //
-// Created by JIESOUL on 2019/10/8.
+// Created by JIESOUL on 2019/10/10.
 //
 #include <iostream>
 #include <string>
@@ -12,7 +12,7 @@ int main()
   shared_ptr<string> pJutta(new string("jutta"));
 
   (*pNico)[0] = 'N';
-  pJutta->replace(0, 1, "J");
+  pJutta->replace(0,1, "J");
 
   vector<shared_ptr<string>> whoMadeCoffee;
   whoMadeCoffee.push_back(pJutta);
@@ -22,19 +22,16 @@ int main()
   whoMadeCoffee.push_back(pNico);
 
   for (auto ptr : whoMadeCoffee) {
-    cout << *ptr << "  ";
+    cout << *ptr << " ";
   }
   cout << endl;
 
   *pNico = "Nicolai";
 
   for (auto ptr : whoMadeCoffee) {
-    cout << *ptr << "  ";
+    cout << *ptr << " ";
   }
   cout << endl;
 
   cout << "use_count: " << whoMadeCoffee[0].use_count() << endl;
-
-  return 0;
-
 }

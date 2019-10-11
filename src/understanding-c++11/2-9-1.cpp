@@ -1,8 +1,8 @@
 //
-// Created by jiesoul on 2019/9/27.
+// Created by JIESOUL on 2019/10/8.
 //
 class Poly;
-typedef Poly P;
+typedef Poly p;
 
 class LiLei {
   friend class Poly;
@@ -13,6 +13,5 @@ class Jim {
 };
 
 class HanMeiMei {
-  friend  P;
+  friend p;
 };
-
