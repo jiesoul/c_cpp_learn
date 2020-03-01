@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/calculator00.dir/sources/calculator00.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/calculator00.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/calculator00.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/Token.dir/sources/Token.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/Token.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/Token.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/calculator.dir/sources/calculator.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/calculator.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/calculator.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/find_repeat_word.dir/sources/find_repeat_word.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/find_repeat_word.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/find_repeat_word.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/input1.dir/sources/input1.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/input1.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/input1.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/passbypointer.dir/sources/passbypointer.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/passbypointer.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/passbypointer.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/pointerrefence.dir/sources/pointerrefence.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/pointerrefence.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/pointerrefence.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/cppl.dir/main.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/main.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/main.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/hello.dir/sources/hello.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/hello.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/hello.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/passbyreference.dir/sources/passbyreference.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/passbyreference.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/passbyreference.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/passbyvalue.dir/sources/passbyvalue.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/passbyvalue.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/passbyvalue.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/calculator1.dir/sources/calculator1.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/calculator1.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/calculator1.cpp"
+},
+{
+  "directory": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/build",
+  "command": "/usr/bin/clang++   -I/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/includes   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++2a -o CMakeFiles/input2.dir/sources/input2.cpp.o -c /Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/input2.cpp",
+  "file": "/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/input2.cpp"
+}
+]

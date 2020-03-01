@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/Token.h
+std_lib_facilities.h
+../includes/std_lib_facilities.h
+
+../includes/std_lib_facilities.h
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+cmath
+-
+
+/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/Token.cpp
+Token.h
+/Users/jiesoul/projects/private/c_cpp_learn/src/cppl/sources/Token.h
+
