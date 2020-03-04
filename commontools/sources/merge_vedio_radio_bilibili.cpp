@@ -34,8 +34,8 @@ int main(int argc, char *argv[])
                 }
             }
             if (p > 256) {
-                    std::cout << "找不到相应的目录" << std::endl;
-                    return -1;
+                    std::cout << "目录：" << dir_path << " 下找不到相应视频音频目录" << std::endl;
+                    continue;
             } else {
                 const auto& video = dir_path + "/" + std::to_string(p) + "/video.m4s";
                 const auto& audio = dir_path + "/" + std::to_string(p) + "/audio.m4s";
