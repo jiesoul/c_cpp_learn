@@ -1,20 +1,12 @@
 cmake_minimum_required(VERSION 3.15)
-project(cppl)
+project(cppl VERSION 0.1)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-set(CMAKE_CXX_STANDARD 20)
 
-include_directories(includes)
+configure_file(cpplConfig.h.in cpplConfig.h)
 
-add_executable(cppl main.cpp)
-add_executable(hello sources/hello.cpp)
-add_executable(passbypointer sources/passbypointer.cpp)
-add_executable(passbyreference sources/passbyreference.cpp)
-add_executable(passbyvalue sources/passbyvalue.cpp)
-add_executable(pointerrefence sources/pointerrefence.cpp)
-add_executable(input1 sources/input1.cpp)
-add_executable(input2 sources/input2.cpp)
-add_executable(find_repeat_word sources/find_repeat_word.cpp)
-add_executable(calculator sources/calculator.cpp)
-add_executable(calculator1 sources/calculator1.cpp)
-add_executable(Token sources/Token.cpp)
-add_executable(calculator00 sources/calculator00.cpp)
+add_executable(intro main.cpp)
+target_compile_feature(intro PRIVATE )
+
+target_include_directories(cppl PUBLIC "${PROJECT_BINARY_DIR}")
