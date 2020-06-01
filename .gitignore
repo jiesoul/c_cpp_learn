@@ -1,6 +1,7 @@
 # IDE
 .idea/
-cmake-build-debug
+.vscode/
+cmake-build-debug/
 x64
 out/
 Debug/
@@ -66,6 +67,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+build/
 
 ### C++ template
 # Prerequisites
@@ -101,3 +103,4 @@ dkms.conf
 *.out
 *.app
 
+cmaketutorial/

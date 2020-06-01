@@ -1,0 +1,2 @@
+/Users/jiesoul/projects/private/c_cpp_learn/commontools/build/CMakeFiles/rebuild_cache.dir
+/Users/jiesoul/projects/private/c_cpp_learn/commontools/build/CMakeFiles/edit_cache.dir
