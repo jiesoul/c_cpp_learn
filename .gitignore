@@ -2,6 +2,14 @@
 .idea/
 cmake-build-debug
 x64
+out/
+Debug/
+.vs/
+.vscode/
+
+*.sln
+*.vcxproj
+*.vcxproj.*
 
 
 # Created by .ignore support plugin (hsz.mobi)
