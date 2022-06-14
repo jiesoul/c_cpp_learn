@@ -1,0 +1,8 @@
+//
+// Created by JIESOUL on 2019/9/4.
+//
+
+#ifndef C_CPP_LEARN_SRC_CPP_PRIMER_CH06_FACT_H
+#define C_CPP_LEARN_SRC_CPP_PRIMER_CH06_FACT_H
+int fact(int val);
+#endif //C_CPP_LEARN_SRC_CPP_PRIMER_CH06_FACT_H

@@ -1,0 +1,2 @@
+#define cppl_VERSION_MAJOR @cpp_VERSION_MAJOR@
+#define cppl_VERSION_MINOR @cpp_VERSION_MINOR@
